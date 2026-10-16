@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "T_Phase_Analysis"
+version = "0.1.0"
+description = "T-phase (tertiary wave) analysis toolkit for seismology"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Yong Zhou", email = "zhouyong@scsio.ac.cn" }
+]
+keywords = ["seismology", "t-phase", "t-wave", "pmcc", "f-detector", "obspy", "pygmt"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "obspy>=1.4",
+    "matplotlib>=3.7",
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+pygmt = ["pygmt>=0.10"]
+
+[project.scripts]
+tphase-profile = "t_phase_analysis.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["t_phase_analysis*"]

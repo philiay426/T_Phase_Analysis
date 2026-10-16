@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
+*.png
+*.jpg
+Parameter-free-denoising-in-SS-CWT-domain-main/
+build/
+dist/
+*.bak_pre_obspy
+*.bak_*
+*.backup
+.venv/
+venv/
+.ipynb_checkpoints/
