@@ -87,4 +87,12 @@ snr_value = snr(st, t_signal, t_noise)
 
 ## 许可证
 
-本项目仅供研究使用。
+本项目采用 **CC BY-NC 4.0**（Attribution-NonCommercial 4.0 International，署名—非商业性使用 4.0 国际）许可证。
+
+**允许**：学术研究、教学、个人学习等非商业用途；使用与再分发时需注明出处并保留本许可声明。
+
+**禁止**：任何商业用途。
+
+完整条款见 [LICENSE](LICENSE)，或访问 https://creativecommons.org/licenses/by-nc/4.0/ 。
+
+如需商业授权，请联系作者。

@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "T-phase (tertiary wave) analysis toolkit for seismology"
 readme = "README.md"
 requires-python = ">=3.10"
-license = { text = "MIT" }
+license = { text = "CC BY-NC 4.0" }
 authors = [
     { name = "Yong Zhou", email = "zhouyong@scsio.ac.cn" }
 ]
